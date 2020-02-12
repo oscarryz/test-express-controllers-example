@@ -1,0 +1,21 @@
+{
+  "name": "test-express-controllers-example",
+  "version": "1.0.0",
+  "description": "Example app for testing express controllers with mocha, mockery and supertest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --exit"
+  },
+  "author": "OscarRyz",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "superagent": "5.2.1"
+  },
+  "devDependencies": {
+    "mocha": "7.0.1",
+    "mockery": "2.1.0",
+    "supertest": "4.0.2"
+  }
+}
